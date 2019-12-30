@@ -22,5 +22,6 @@ Zugriff auf den Server
 
 Der Zugriff auf den Server erfolgt mittels [ssh](https://wiki.ubuntuusers.de/SSH/). 
 
-Der private SSH Key ist auf dem Installierten Server unter [/M122/id_rsa](/M122/id_rsa) zu finden.
+Der private SSH Key ist auf dem Installierten Server unter [/M122/id_rsa](/M122/id_rsa) zu finden. Downloaden und dann wie folgt auf den Server einloggen:
 
+  ssh -i id_rsa ubuntu@<IP Adresse>
