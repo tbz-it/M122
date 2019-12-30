@@ -1,7 +1,7 @@
 M122 - Automatisieren mit Skripten
 ==================================
 
-Umgebung fuer die Automatisieren mit Skripten abgestimmt auf die [lernmaas](https://github.com/mc-b/lernmaas) Umgebung.
+Umgebung für die Automatisieren mit Skripten abgestimmt auf die [lernmaas](https://github.com/mc-b/lernmaas) Umgebung.
 
 Verwendete Produkte
 
