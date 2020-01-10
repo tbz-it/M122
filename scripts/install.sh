@@ -8,9 +8,11 @@ sudo apt install -y apache2 php libapache2-mod-php vsftpd markdown
 sudo snap install powershell --classic
 
 # Repository unter Apache verfuegbar machen inkl. README.md als Anleitung
+sudo apt install -y putty-tools
 sudo ln -s $HOME/M122 /var/www/html/M122
 cp $HOME/data/.ssh/id_rsa $HOME/M122/
-chmod 644 $HOME/M122/id_rsa
+puttygen $HOME/.ssh/id_rsa -o $HOME/data/id_rsa.ppk
+chmod 644 $HOME/data/id_rsa $HOME/data/id_rsa.ppk
 
 cat <<%EOF% | sudo tee /var/www/html/index.html
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
