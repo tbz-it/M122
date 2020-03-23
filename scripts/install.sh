@@ -11,6 +11,7 @@ sudo snap install powershell --classic
 sudo apt install -y putty-tools
 sudo ln -s $HOME/M122 /var/www/html/M122
 cp $HOME/data/.ssh/id_rsa $HOME/M122/
+cp $HOME/data/.ssh/passwd $HOME/M122/
 puttygen $HOME/.ssh/id_rsa -o $HOME/M122/id_rsa.ppk
 chmod 644 $HOME/M122/id_rsa $HOME/M122/id_rsa.ppk
 
