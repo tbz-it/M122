@@ -20,7 +20,17 @@ Die Informationen zum Modul sind im BSCW und auf dem Installieren Server unter [
 Zugriff auf den Server
 ----------------------
 
-Der Zugriff auf den Server erfolgt mittels [ssh](https://wiki.ubuntuusers.de/SSH/). 
+### User / Password
+
+Der User ist `ubuntu`, dass Password steht in der Datei [/M122/passwd](/M122/passwd).
+
+Einloggen mittels
+
+    ssh ubuntu@[IP Adresse]
+    
+### SSH
+
+Auf der Server kann mittels [ssh](https://wiki.ubuntuusers.de/SSH/) zugegriffen werden.    
 
 Der private SSH Key ist auf dem Installierten Server unter [/M122/id_rsa](/M122/id_rsa) zu finden. Downloaden und dann wie folgt auf den Server einloggen:
 
