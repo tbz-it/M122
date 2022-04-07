@@ -1,5 +1,5 @@
 
-module "m122" {
+module "lerncloud" {
   #source     = "git::https://github.com/mc-b/terraform_lerncloud_aws.git"
   #source     = "git::https://github.com/mc-b/terraform_lerncloud_azure.git"
   #source     = "git::https://github.com/mc-b/terraform_lerncloud_maas.git"
