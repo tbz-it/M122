@@ -15,9 +15,9 @@ output "fqdn_vm" {
 # Einfuehrungsseiten
 
 output "README" {
-  value = templatefile( "README.tpl", { ip = module.lerncloud.ip_vm, fqdn = module.lerncloud.fqdn_vm } )
+  value = templatefile( "README.md", { ip = module.lerncloud.ip_vm, fqdn = module.lerncloud.fqdn_vm, ADDR = module.lerncloud.ip_vm } )
 } 
 
 output "ACCESSING" {
-  value = templatefile( "ACCESSING.tpl", { ip = module.lerncloud.ip_vm, fqdn = module.lerncloud.fqdn_vm } )
+  value = templatefile( "ACCESSING.md", { ip = module.lerncloud.ip_vm, fqdn = module.lerncloud.fqdn_vm, ADDR = module.lerncloud.ip_vm } )
 }    
