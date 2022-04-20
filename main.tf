@@ -1,9 +1,12 @@
 
 module "lerncloud" {
-  source     = "git::https://github.com/mc-b/terraform_lerncloud_multipass"      
-  #source     = "git::https://github.com/mc-b/terraform_lerncloud_aws"
-  #source     = "git::https://github.com/mc-b/terraform_lerncloud_azure"
-  #source     = "git::https://github.com/mc-b/terraform_lerncloud_maas"
+  #source     = "git::https://github.com/mc-b/terraform-lerncloud-maas"
+  source     = "git::https://github.com/mc-b/terraform-lerncloud-multipass"
+  #source     = "git::https://github.com/mc-b/terraform-lerncloud-aws"
+  #source     = "git::https://github.com/mc-b/terraform-lerncloud-azure"
+  
   module     = "m122"
-  userdata   = "cloud-init.yaml"
+  description = "M122 - Automatisieren mit Skripten"
+    
+  userdata    = "cloud-init.yaml"
 }
