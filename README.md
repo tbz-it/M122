@@ -3,6 +3,9 @@ M122 - Automatisieren mit Skripten
 
 Umgebung für die Automatisieren mit Skripten.
 
+Die Theorie zum Modul befindet sich auf [GitLab](https://gitlab.com/ch-tbz-it/Stud/m122).
+
+
 Verwendete Produkte
 -------------------
 
